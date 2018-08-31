@@ -8,5 +8,4 @@ from the user input requested in the InvoiceTest class.
 
 Class Invoice utilizes automatic properties, and the static variable instanceCount is incremented in InvoiceTest for each created Invoice.
 
-When the loop exits in InvoiceTest, Invoice's GetInvoiceTotal method prints the total number of invoices
-and the sum of all invoice totals.
+When the loop exits in InvoiceTest, each invoice is printed to the console, and Invoice's GetInvoiceTotal method prints the total number of invoices and the sum of all invoice totals.
